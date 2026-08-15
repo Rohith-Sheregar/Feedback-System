@@ -6,6 +6,20 @@ A full-stack, enterprise-grade Feedback Management System built with Java Spring
 
 ---
 
+## 🔑 Demo Credentials (Live on Render)
+
+Try all three roles instantly — no sign-up needed:
+
+| Role | Username / Email | Password | Dashboard URL |
+|---|---|---|---|
+| 🛡️ **Admin** | `admin` | `admin` | `/admin/dashboard` |
+| 👩‍🏫 **Faculty** | `faculty@demo.com` | `faculty123` | `/faculty/dashboard` |
+| 👨‍🎓 **Student** | `student@demo.com` | `student123` | `/student/dashboard` |
+
+> **Note:** The demo database is shared. Any changes you make (e.g., submitting feedback) will persist until the next Render redeploy.
+
+---
+
 ## 🌟 Key Features
 
 *   **Role-Based Access Control (RBAC):** Distinct portals and capabilities for Admin, Faculty, and Students.
@@ -86,9 +100,7 @@ Open your browser and navigate to:
 http://localhost:8080/login
 ```
 
-**Default Admin Credentials:**
-*   **Username:** admin
-*   **Password:** admin
+See the **[Demo Credentials](#-demo-credentials-live-on-render)** table above for login details for all three roles.
 
 ---
 

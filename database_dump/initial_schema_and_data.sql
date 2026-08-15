@@ -69,6 +69,7 @@ CREATE TABLE `course` (
 
 LOCK TABLES `course` WRITE;
 /*!40000 ALTER TABLE `course` DISABLE KEYS */;
+INSERT INTO `course` VALUES (1,'CS301','Data Structures',1,3);
 /*!40000 ALTER TABLE `course` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -100,6 +101,7 @@ CREATE TABLE `course_assignment` (
 
 LOCK TABLES `course_assignment` WRITE;
 /*!40000 ALTER TABLE `course_assignment` DISABLE KEYS */;
+INSERT INTO `course_assignment` VALUES (1,1,1,1);
 /*!40000 ALTER TABLE `course_assignment` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -151,6 +153,7 @@ CREATE TABLE `faculty` (
 
 LOCK TABLES `faculty` WRITE;
 /*!40000 ALTER TABLE `faculty` DISABLE KEYS */;
+INSERT INTO `faculty` VALUES (1,'Dr. Demo Faculty','faculty@demo.com','faculty123','FACULTY');
 /*!40000 ALTER TABLE `faculty` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -295,6 +298,7 @@ CREATE TABLE `section` (
 
 LOCK TABLES `section` WRITE;
 /*!40000 ALTER TABLE `section` DISABLE KEYS */;
+INSERT INTO `section` VALUES (1,'A',1,3);
 /*!40000 ALTER TABLE `section` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -330,6 +334,7 @@ CREATE TABLE `student` (
 
 LOCK TABLES `student` WRITE;
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
+INSERT INTO `student` VALUES (1,'1CS22CS001','Demo Student','student@demo.com','student123',1,3,1);
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
