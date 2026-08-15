@@ -32,7 +32,7 @@ public class SecurityConfig {
         http
                 .authorizeHttpRequests(auth -> auth
                         // Public endpoints
-                        .requestMatchers("/login", "/css/**", "/js/**", "/images/**", "/webjars/**", "/favicon.ico").permitAll()
+                        .requestMatchers("/login", "/health", "/css/**", "/js/**", "/images/**", "/webjars/**", "/favicon.ico").permitAll()
                         // Role-based URLs
                         .requestMatchers("/admin/**").hasRole("ADMIN")
                         .requestMatchers("/faculty/**").hasRole("FACULTY")
